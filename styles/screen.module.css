@@ -1,0 +1,101 @@
+@media all {
+  div#screen {
+    height: 245px;
+    width: 260px;
+    padding: 0 20px;
+    background-color: #b0b0b0;
+    float: left;
+
+    position: absolute;
+    top: 130px;
+    left: 19px;
+
+    border-radius: 15px;
+  }
+
+  div#screen:after {
+    content: "";
+    border-top: 40px solid #b0b0b0;
+    border-left: 40px solid #c00d0d;
+    height: 0;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+  }
+
+  div#topPicture {
+    margin: 6px auto;
+    width: 40px;
+  }
+
+  div#buttontopPicture1,
+  div#buttontopPicture2 {
+    height: 8px;
+    width: 8px;
+    background-color: #c00d0d;
+    border: 1px solid #000;
+    float: left;
+
+    border-radius: 15px;
+  }
+
+  div#buttontopPicture1 {
+    margin-right: 20px;
+  }
+
+  div#picture img {
+    display: block;
+    margin: 0 auto;
+  
+  }
+
+  div#buttonbottomPicture {
+    height: 26px;
+    width: 26px;
+    background-color: #c00d0d;
+    margin-left: 35px;
+    float: left;
+
+    border-radius: 30px;
+
+    box-shadow: -2px 1px #5e0000;
+
+    background: linear-gradient(to bottom, #c00d0d 0%, #8b0000 80%);
+  }
+
+  div#speakers {
+    float: right;
+    width: 75px;
+    height: 25px;
+    margin-right: 20px;
+  }
+
+  div.sp {
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: #494949;
+
+    border-radius: 30px;
+  }
+
+  div#picture {
+    height: 175px;
+    width: 254px;
+    margin-top: 20px;
+    margin-bottom: 9px;
+    background-color: #fff;
+    border: 3px solid #494949;
+    clear: both;
+
+    border-radius: 15px;
+  }
+}
+
+@media handheld and (orientation:portrait), (max-width:768px) {
+    div#screen
+	{
+		display: none;
+	}
+}

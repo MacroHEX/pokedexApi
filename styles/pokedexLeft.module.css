@@ -1,0 +1,405 @@
+@media all {
+  div#left {
+    width: 400px;
+    height: 500px;
+    float: left;
+    position: relative;
+    z-index: 1;
+  }
+
+  div#curve1_left {
+    width: 201px;
+    height: 85px;
+    background-color: #8b0000;
+    float: left;
+    padding: 15px 0 0 15px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    box-shadow: -10px 9px #5e0000;
+
+    border-bottom-right-radius: 85px 60px;
+
+    border-top-left-radius: 30px;
+  }
+
+  div#bg_curve1_left {
+    width: 400px;
+    height: 80px;
+    background-color: #8b0000;
+
+    border-top-left-radius: 30px;
+  }
+
+  div#curve2_left {
+    width: 216px;
+    height: 451px;
+    background-color: #c00d0d;
+    float: right;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    border-top-left-radius: 85px 60px;
+  }
+
+  div#bg_curve2_left {
+    width: 400px;
+    height: 420px;
+    background-color: #c00d0d;
+
+    box-shadow: -10px 9px #5e0000;
+
+    border-bottom-left-radius: 30px;
+  }
+
+  div#buttonGlass {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    border: 5px solid #fff;
+    float: left;
+
+    box-shadow: 0 0 10px #490000;
+
+    background: radial-gradient(#05fbfb, #29abe3);
+
+    border-radius: 35px;
+  }
+
+  div#reflect {
+    width: 30px;
+    height: 18px;
+    margin: 3px 0 0 15px;
+    background: #fff;
+    opacity: 0.6;
+
+    border-radius: 15px 9px;
+  }
+
+  div#miniButtonGlass1 {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    float: left;
+
+    box-shadow: 0 0 10px #490000;
+
+    border-radius: 20px;
+
+    background: radial-gradient(#fb7b7b, #fb0505);
+  }
+
+  div#miniButtonGlass2 {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    float: left;
+
+    box-shadow: 0 0 10px #490000;
+
+    border-radius: 20px;
+
+    background: radial-gradient(#fbfb9b, #fbfb05);
+  }
+
+  div#miniButtonGlass3 {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    float: left;
+
+    box-shadow: 0 0 10px #490000;
+
+    border-radius: 20px;
+
+    background: radial-gradient(#b0fb7b, #50fb05);
+  }
+
+  div#junction {
+    width: 60px;
+    height: 451px;
+    float: right;
+
+    background: linear-gradient(
+      to right,
+      #8b0000 0%,
+      #c00d0d 50%,
+      #8b0000 100%
+    );
+  }
+
+  div#junction1 {
+    height: 40px;
+    background-color: #5e0000;
+    opacity: 0.3;
+    margin-top: 50px;
+    margin-bottom: 262px;
+
+    border-top: 2px solid #330000;
+    border-bottom: 2px solid #330000;
+  }
+
+  div#junction2 {
+    height: 40px;
+    background-color: #5e0000;
+    opacity: 0.3;
+
+    border-top: 2px solid #330000;
+    border-bottom: 2px solid #330000;
+  }
+
+  div#bigbluebutton {
+    height: 50px;
+    width: 50px;
+    background-color: #000;
+
+    position: absolute;
+    top: 395px;
+    left: 30px;
+
+    border-radius: 100px;
+
+    background: linear-gradient(to bottom, #307bfb 0%, #0530e5 80%);
+
+    box-shadow: -3px 2px #001c91;
+  }
+
+  div#barbutton1 {
+    height: 13px;
+    width: 50px;
+
+    position: absolute;
+    top: 405px;
+    left: 100px;
+
+    border-radius: 100px;
+
+    background: linear-gradient(to bottom, #50fb05 0%, #057b05 100%);
+
+    box-shadow: -1px 2px #004200;
+  }
+
+  div#barbutton2 {
+    height: 13px;
+    width: 50px;
+
+    position: absolute;
+    top: 405px;
+    left: 165px;
+
+    border-radius: 100px;
+
+    background: linear-gradient(to bottom, #fb6505 0%, #bb0505 100%);
+
+    box-shadow: -1px 2px #7b0000;
+  }
+
+  div#cross {
+    width: 90px;
+    height: 90px;
+
+    position: absolute;
+    top: 394px;
+    left: 230px;
+  }
+
+  div#topcross {
+    width: 30px;
+    height: 30px;
+    background-color: #222;
+
+    position: absolute;
+    top: 0;
+    left: 30px;
+
+    box-shadow: -3px 2px #010101;
+
+    border-top-left-radius: 5px;
+
+    border-top-right-radius: 5px;
+  }
+
+  div#leftcross {
+    width: 30px;
+    height: 30px;
+    background-color: #222;
+    z-index: 1;
+
+    position: absolute;
+    left: 0;
+    top: 30px;
+
+    box-shadow: -3px 2px #010101;
+
+    border-top-left-radius: 5px;
+
+    border-bottom-left-radius: 5px;
+  }
+
+  div#midcross {
+    width: 30px;
+    height: 30px;
+    background-color: #222;
+
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+    box-shadow: -3px 2px #010101;
+  }
+
+  div#rightcross {
+    width: 30px;
+    height: 30px;
+    background-color: #222;
+
+    position: absolute;
+    top: 30px;
+    right: 0;
+
+    box-shadow: -3px 2px #010101;
+
+    border-top-right-radius: 5px;
+
+    border-bottom-right-radius: 5px;
+  }
+
+  div#botcross {
+    width: 30px;
+    height: 30px;
+    background-color: #222;
+
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+
+    box-shadow: -3px 2px #010101;
+
+    border-bottom-left-radius: 5px;
+
+    border-bottom-right-radius: 5px;
+  }
+
+  div#upT {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #111;
+
+    position: absolute;
+    top: 5px;
+    left: 4px;
+  }
+
+  div#downT {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #111;
+
+    position: absolute;
+    bottom: 5px;
+    left: 4px;
+  }
+
+  div#leftT {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #111;
+    border-bottom: 10px solid transparent;
+
+    position: absolute;
+    top: 5px;
+    left: 4px;
+  }
+
+  div#rightT {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #111;
+    border-bottom: 10px solid transparent;
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+
+  div#midCircle {
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    top: 5px;
+    left: 4px;
+
+    border-radius: 30px;
+
+    background: radial-gradient(#111, #222);
+  }
+}
+
+@media handheld and (orientation: portrait), (max-width: 768px) {
+  div#logo {
+    width: 281px;
+    height: 99px;
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/200653/logo.png")
+      no-repeat left top;
+    z-index: 1;
+
+    position: absolute;
+    top: 220px;
+    left: 30px;
+  }
+
+  div#left {
+    width: 400px;
+    height: 500px;
+    float: left;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+  }
+
+  div#curve1_left {
+    width: 201px;
+    height: 85px;
+    background-color: #8b0000;
+    float: left;
+    padding: 15px 0 0 15px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    box-shadow: 0 0 #5e0000;
+
+    border-bottom-right-radius: 85px 60px;
+
+    border-top-left-radius: 30px;
+  }
+
+  div#bg_curve1_left {
+    width: 400px;
+    height: 80px;
+    background-color: #8b0000;
+
+    box-shadow: -10px 9px #5e0000;
+
+    border-top-left-radius: 30px;
+  }
+
+  div#bigbluebutton,
+  div#barbutton1,
+  div#barbutton2,
+  div#cross {
+    display: none;
+  }
+}
