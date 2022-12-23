@@ -2,23 +2,24 @@ import React from "react";
 
 import style from "../../../styles/pokedexRight.module.css";
 
-const Right = () => {
+interface Props {
+  pokemonName: string;
+  pokemonHeight: number;
+  pokemonWeight: number;
+}
+
+const Right = ({ pokemonName, pokemonHeight, pokemonWeight }: Props) => {
   return (
     <>
       <div id={style.right}>
         <div id={style.stats}>
-          <strong>Name:</strong> Psyduck
+          <strong>Name:</strong> <span>{pokemonName}</span>
           <br />
-          <strong>Type:</strong> Water
+          <strong>Height:</strong> <span>{pokemonHeight}</span>
           <br />
-          <strong>Height:</strong> 2'072''
-          <br />
-          <strong>Weight:</strong> 43.2 lbs.
+          <strong>Weight:</strong> <span>{pokemonWeight}</span>
           <br />
           <br />
-          <strong>The duck Pokemon</strong>
-          <br />
-          Uses mysterious powers to perform various attacks.
         </div>
         <div id={style.blueButtons1}>
           <div className={style.blueButton}></div>

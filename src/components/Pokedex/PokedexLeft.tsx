@@ -4,7 +4,12 @@ import Screen from "../Pokedex/Screen";
 
 import style from "../../../styles/pokedexLeft.module.css";
 
-const Left = () => {
+interface Props {
+  pokemonImg: string;
+  handleValue: (number: number) => void;
+}
+
+const Left = ({ pokemonImg, handleValue }: Props) => {
   return (
     <>
       <div id={style.left}>
@@ -25,18 +30,18 @@ const Left = () => {
             <div id={style.junction2}></div>
           </div>
         </div>
-        <Screen />
+        <Screen pokemonImg={pokemonImg} />
         <div id={style.bigbluebutton}></div>
         <div id={style.barbutton1}></div>
         <div id={style.barbutton2}></div>
         <div id={style.cross}>
-          <div id={style.leftcross}>
+          <div id={style.leftcross}onClick={()=>handleValue(-1)}>
             <div id={style.leftT}></div>
           </div>
           <div id={style.topcross}>
             <div id={style.upT}></div>
           </div>
-          <div id={style.rightcross}>
+          <div id={style.rightcross} onClick={()=>handleValue(1)}>
             <div id={style.rightT}></div>
           </div>
           <div id={style.midcross}>
